@@ -1,4 +1,4 @@
-FROM centos:6
+FROM centos:7
 WORKDIR /opt
 RUN yum install -y wget && \
     wget https://get.docker.com/builds/Linux/x86_64/docker-latest.tgz && \
