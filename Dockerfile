@@ -1,6 +1,6 @@
 FROM centos:6
 WORKDIR /opt
-RUN yum install -y wget && \
+RUN yum install -y wget git && \
     wget https://get.docker.com/builds/Linux/x86_64/docker-latest.tgz && \
     tar -xvf docker-latest.tgz && \
     ln -s /opt/docker/docker /usr/bin/docker
